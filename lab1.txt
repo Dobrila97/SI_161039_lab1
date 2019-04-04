@@ -1,0 +1,25 @@
+
+
+Dobrila@DESKTOP-GP0R48H MINGW64 ~
+$ mkdir lab1
+
+Dobrila@DESKTOP-GP0R48H MINGW64 ~
+$ cd lab1
+
+Dobrila@DESKTOP-GP0R48H MINGW64 ~/lab1
+$ git init
+Initialized empty Git repository in C:/Users/Dobrila/lab1/.git/
+
+Dobrila@DESKTOP-GP0R48H MINGW64 ~/lab1 (master)
+$ nano lab1.txt
+
+Dobrila@DESKTOP-GP0R48H MINGW64 ~/lab1 (master)
+$ git add lab1.txt
+warning: LF will be replaced by CRLF in lab1.txt.
+The file will have its original line endings in your working directory
+
+Dobrila@DESKTOP-GP0R48H MINGW64 ~/lab1 (master)
+$ ^C
+
+Dobrila@DESKTOP-GP0R48H MINGW64 ~/lab1 (master)
+$
