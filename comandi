@@ -1,0 +1,399 @@
+Dobrila@DESKTOP-GP0R48H MINGW64 ~
+$ mkdir lab1
+
+Dobrila@DESKTOP-GP0R48H MINGW64 ~
+$ cd lab1
+
+Dobrila@DESKTOP-GP0R48H MINGW64 ~/lab1
+$ git init
+Initialized empty Git repository in C:/Users/Dobrila/lab1/.git/
+
+Dobrila@DESKTOP-GP0R48H MINGW64 ~/lab1 (master)
+$ nano lab1.txt
+
+Dobrila@DESKTOP-GP0R48H MINGW64 ~/lab1 (master)
+$ git add lab1.txt
+warning: LF will be replaced by CRLF in lab1.txt.
+The file will have its original line endings in your working directory
+
+Dobrila@DESKTOP-GP0R48H MINGW64 ~/lab1 (master)
+$ ^C
+
+Dobrila@DESKTOP-GP0R48H MINGW64 ~/lab1 (master)
+$ ^C
+
+Dobrila@DESKTOP-GP0R48H MINGW64 ~/lab1 (master)
+$ git add l1.txt
+fatal: pathspec 'l1.txt' did not match any files
+
+Dobrila@DESKTOP-GP0R48H MINGW64 ~/lab1 (master)
+$ git add lab1.txt
+warning: LF will be replaced by CRLF in lab1.txt.
+The file will have its original line endings in your working directory
+
+Dobrila@DESKTOP-GP0R48H MINGW64 ~/lab1 (master)
+$ git commit -m 'Initial comit'
+[master (root-commit) 2968ecc] Initial comit
+ 1 file changed, 25 insertions(+)
+ create mode 100644 lab1.txt
+
+Dobrila@DESKTOP-GP0R48H MINGW64 ~/lab1 (master)
+$ nano l1.txt
+
+Dobrila@DESKTOP-GP0R48H MINGW64 ~/lab1 (master)
+$ git add l1.txt
+warning: LF will be replaced by CRLF in l1.txt.
+The file will have its original line endings in your working directory
+
+Dobrila@DESKTOP-GP0R48H MINGW64 ~/lab1 (master)
+$ git commit -m 'Initial commit'
+[master 14dfab0] Initial commit
+ 1 file changed, 2 insertions(+)
+ create mode 100644 l1.txt
+
+Dobrila@DESKTOP-GP0R48H MINGW64 ~/lab1 (master)
+$ nano l1.txt
+
+Dobrila@DESKTOP-GP0R48H MINGW64 ~/lab1 (master)
+$ git add l1.txt
+
+Dobrila@DESKTOP-GP0R48H MINGW64 ~/lab1 (master)
+$ git commit -m 'modify l1.txt'
+On branch master
+nothing to commit, working tree clean
+
+Dobrila@DESKTOP-GP0R48H MINGW64 ~/lab1 (master)
+$ git remote add origin
+usage: git remote add [<options>] <name> <url>
+
+    -f, --fetch           fetch the remote branches
+    --tags                import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --track <branch>  branch(es) to track
+    -m, --master <branch>
+                          master branch
+    --mirror[=(push|fetch)]
+                          set up remote as a mirror to push to or fetch from
+
+
+Dobrila@DESKTOP-GP0R48H MINGW64 ~/lab1 (master)
+$ git remote add origin https://github.com/Dobrila97/SI_161039_lab1.git
+
+Dobrila@DESKTOP-GP0R48H MINGW64 ~/lab1 (master)
+$ git remote add origin https://github.com/Dobrila97/SI_161039_lab1/.git
+fatal: remote origin already exists.
+
+
+Dobrila@DESKTOP-GP0R48H MINGW64 ~
+$ mkdir lab1
+
+Dobrila@DESKTOP-GP0R48H MINGW64 ~
+$ cd lab1
+
+Dobrila@DESKTOP-GP0R48H MINGW64 ~/lab1
+$ git init
+Initialized empty Git repository in C:/Users/Dobrila/lab1/.git/
+
+Dobrila@DESKTOP-GP0R48H MINGW64 ~/lab1 (master)
+$ nano lab1.txt
+
+Dobrila@DESKTOP-GP0R48H MINGW64 ~/lab1 (master)
+$ git add lab1.txt
+warning: LF will be replaced by CRLF in lab1.txt.
+The file will have its original line endings in your working directory
+
+Dobrila@DESKTOP-GP0R48H MINGW64 ~/lab1 (master)
+$ ^C
+
+Dobrila@DESKTOP-GP0R48H MINGW64 ~/lab1 (master)
+$ ^C
+
+Dobrila@DESKTOP-GP0R48H MINGW64 ~/lab1 (master)
+$ git add l1.txt
+fatal: pathspec 'l1.txt' did not match any files
+
+Dobrila@DESKTOP-GP0R48H MINGW64 ~/lab1 (master)
+$ git add lab1.txt
+warning: LF will be replaced by CRLF in lab1.txt.
+The file will have its original line endings in your working directory
+
+Dobrila@DESKTOP-GP0R48H MINGW64 ~/lab1 (master)
+$ git commit -m 'Initial comit'
+[master (root-commit) 2968ecc] Initial comit
+ 1 file changed, 25 insertions(+)
+ create mode 100644 lab1.txt
+
+Dobrila@DESKTOP-GP0R48H MINGW64 ~/lab1 (master)
+$ nano l1.txt
+
+Dobrila@DESKTOP-GP0R48H MINGW64 ~/lab1 (master)
+$ git add l1.txt
+warning: LF will be replaced by CRLF in l1.txt.
+The file will have its original line endings in your working directory
+
+Dobrila@DESKTOP-GP0R48H MINGW64 ~/lab1 (master)
+$ git commit -m 'Initial commit'
+[master 14dfab0] Initial commit
+ 1 file changed, 2 insertions(+)
+ create mode 100644 l1.txt
+
+Dobrila@DESKTOP-GP0R48H MINGW64 ~/lab1 (master)
+$ nano l1.txt
+
+Dobrila@DESKTOP-GP0R48H MINGW64 ~/lab1 (master)
+$ git add l1.txt
+
+Dobrila@DESKTOP-GP0R48H MINGW64 ~/lab1 (master)
+$ git commit -m 'modify l1.txt'
+On branch master
+nothing to commit, working tree clean
+
+Dobrila@DESKTOP-GP0R48H MINGW64 ~/lab1 (master)
+$ git remote add origin
+usage: git remote add [<options>] <name> <url>
+
+    -f, --fetch           fetch the remote branches
+    --tags                import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --track <branch>  branch(es) to track
+    -m, --master <branch>
+                          master branch
+    --mirror[=(push|fetch)]
+                          set up remote as a mirror to push to or fetch from
+
+
+Dobrila@DESKTOP-GP0R48H MINGW64 ~/lab1 (master)
+$ git remote add origin https://github.com/Dobrila97/SI_161039_lab1.git
+
+Dobrila@DESKTOP-GP0R48H MINGW64 ~/lab1 (master)
+$ git remote add origin https://github.com/Dobrila97/SI_161039_lab1/.git
+fatal: remote origin already exists.
+
+Dobrila@DESKTOP-GP0R48H MINGW64 ~/lab1 (master)
+$ git push -u origin master
+
+
+d.Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (6/6), 691 bytes | 172.00 KiB/s, done.
+Total 6 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/Dobrila97/SI_161039_lab1.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+Dobrila@DESKTOP-GP0R48H MINGW64 ~/lab1 (master)
+$
+
+Dobrila@DESKTOP-GP0R48H MINGW64 ~/lab1 (master)
+$
+
+Dobrila@DESKTOP-GP0R48H MINGW64 ~/lab1 (master)
+$ d.
+bash: d.: command not found
+
+Dobrila@DESKTOP-GP0R48H MINGW64 ~/lab1 (master)
+$ nano l1.txt
+
+Dobrila@DESKTOP-GP0R48H MINGW64 ~/lab1 (master)
+$ ^C
+
+Dobrila@DESKTOP-GP0R48H MINGW64 ~/lab1 (master)
+$ git checkout --l1.txt
+error: unknown option `l1.txt'
+usage: git checkout [<options>] <branch>
+   or: git checkout [<options>] [<branch>] -- <file>...
+
+    -q, --quiet           suppress progress reporting
+    -b <branch>           create and checkout a new branch
+    -B <branch>           create/reset and checkout a branch
+    -l                    create reflog for new branch
+    --detach              detach HEAD at named commit
+    -t, --track           set upstream info for new branch
+    --orphan <new-branch>
+                          new unparented branch
+    -2, --ours            checkout our version for unmerged files
+    -3, --theirs          checkout their version for unmerged files
+    -f, --force           force checkout (throw away local modifications)
+    -m, --merge           perform a 3-way merge with the new branch
+    --overwrite-ignore    update ignored files (default)
+    --conflict <style>    conflict style (merge or diff3)
+    -p, --patch           select hunks interactively
+    --ignore-skip-worktree-bits
+                          do not limit pathspecs to sparse entries only
+    --no-guess            do not second guess 'git checkout <no-such-branch>'
+    --ignore-other-worktrees
+                          do not check if another worktree is holding the given ref
+    --recurse-submodules[=<checkout>]
+                          control recursive updating of submodules
+    --progress            force progress reporting
+
+
+Dobrila@DESKTOP-GP0R48H MINGW64 ~/lab1 (master)
+$ git branch logging
+
+Dobrila@DESKTOP-GP0R48H MINGW64 ~/lab1 (master)
+$ git checkout logging
+Switched to branch 'logging'
+M       lab1.txt
+
+Dobrila@DESKTOP-GP0R48H MINGW64 ~/lab1 (logging)
+$ git log
+commit 14dfab021832e7d6a0918c76cddaa46f8de64b83 (HEAD -> logging, origin/master, master)
+Author: Dobrila97 <49041302+Dobrila97@users.noreply.github.com>
+Date:   Fri Apr 5 00:15:31 2019 +0200
+
+    Initial commit
+
+commit 2968eccf2227d073135656ad2ac69e67c1c59e97
+Author: Dobrila97 <49041302+Dobrila97@users.noreply.github.com>
+Date:   Fri Apr 5 00:10:59 2019 +0200
+
+    Initial comit
+
+Dobrila@DESKTOP-GP0R48H MINGW64 ~/lab1 (logging)
+$ nano log.txt
+
+Dobrila@DESKTOP-GP0R48H MINGW64 ~/lab1 (logging)
+$ git add log.txt
+fatal: pathspec 'log.txt' did not match any files
+
+Dobrila@DESKTOP-GP0R48H MINGW64 ~/lab1 (logging)
+$ git add lo.txt
+fatal: pathspec 'lo.txt' did not match any files
+
+Dobrila@DESKTOP-GP0R48H MINGW64 ~/lab1 (logging)
+$ git add log.txt
+fatal: pathspec 'log.txt' did not match any files
+
+Dobrila@DESKTOP-GP0R48H MINGW64 ~/lab1 (logging)
+$ git commit -m
+error: switch `m' requires a value
+
+Dobrila@DESKTOP-GP0R48H MINGW64 ~/lab1 (logging)
+$ git commit -m 'Initial commit'
+On branch logging
+Changes not staged for commit:
+        modified:   lab1.txt
+
+no changes added to commit
+
+Dobrila@DESKTOP-GP0R48H MINGW64 ~/lab1 (logging)
+$ git log
+commit 14dfab021832e7d6a0918c76cddaa46f8de64b83 (HEAD -> logging, origin/master, master)
+Author: Dobrila97 <49041302+Dobrila97@users.noreply.github.com>
+Date:   Fri Apr 5 00:15:31 2019 +0200
+
+    Initial commit
+
+commit 2968eccf2227d073135656ad2ac69e67c1c59e97
+Author: Dobrila97 <49041302+Dobrila97@users.noreply.github.com>
+Date:   Fri Apr 5 00:10:59 2019 +0200
+
+    Initial comit
+
+Dobrila@DESKTOP-GP0R48H MINGW64 ~/lab1 (logging)
+$ nano log.txt
+
+Dobrila@DESKTOP-GP0R48H MINGW64 ~/lab1 (logging)
+$ git add log.txt
+fatal: pathspec 'log.txt' did not match any files
+
+Dobrila@DESKTOP-GP0R48H MINGW64 ~/lab1 (logging)
+$ git commit -m 'modify log.txt'
+On branch logging
+Changes not staged for commit:
+        modified:   lab1.txt
+
+no changes added to commit
+
+Dobrila@DESKTOP-GP0R48H MINGW64 ~/lab1 (logging)
+$ git push -u origin master
+Everything up-to-date
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+Dobrila@DESKTOP-GP0R48H MINGW64 ~/lab1 (logging)
+$ git checkout master
+Switched to branch 'master'
+M       lab1.txt
+Your branch is up to date with 'origin/master'.
+
+Dobrila@DESKTOP-GP0R48H MINGW64 ~/lab1 (master)
+$ git merge logging
+Already up to date.
+
+Dobrila@DESKTOP-GP0R48H MINGW64 ~/lab1 (master)
+$ git push -u origin master
+git Everything up-to-date
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+Dobrila@DESKTOP-GP0R48H MINGW64 ~/lab1 (master)
+$ git branch allcomands
+
+Dobrila@DESKTOP-GP0R48H MINGW64 ~/lab1 (master)
+$ git checkout allcomands
+Switched to branch 'allcomands'
+M       lab1.txt
+
+Dobrila@DESKTOP-GP0R48H MINGW64 ~/lab1 (allcomands)
+$ git log
+commit 14dfab021832e7d6a0918c76cddaa46f8de64b83 (HEAD -> allcomands, origin/master, master, logging)
+Author: Dobrila97 <49041302+Dobrila97@users.noreply.github.com>
+Date:   Fri Apr 5 00:15:31 2019 +0200
+
+    Initial commit
+
+commit 2968eccf2227d073135656ad2ac69e67c1c59e97
+Author: Dobrila97 <49041302+Dobrila97@users.noreply.github.com>
+Date:   Fri Apr 5 00:10:59 2019 +0200
+
+    Initial comit
+
+Dobrila@DESKTOP-GP0R48H MINGW64 ~/lab1 (allcomands)
+$ nano commands.txt
+
+Dobrila@DESKTOP-GP0R48H MINGW64 ~/lab1 (allcomands)
+$ nano commands.txt
+
+Dobrila@DESKTOP-GP0R48H MINGW64 ~/lab1 (allcomands)
+$ git add commands.txt
+warning: LF will be replaced by CRLF in commands.txt.
+The file will have its original line endings in your working directory
+
+Dobrila@DESKTOP-GP0R48H MINGW64 ~/lab1 (allcomands)
+$ git commit -m 'modify commands.txt'
+[allcomands 649959c] modify commands.txt
+ 1 file changed, 1 insertion(+)
+ create mode 100644 commands.txt
+
+Dobrila@DESKTOP-GP0R48H MINGW64 ~/lab1 (allcomands)
+$ git push -u origin allcomands
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 328 bytes | 164.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+remote:
+remote: Create a pull request for 'allcomands' on GitHub by visiting:
+remote:      https://github.com/Dobrila97/SI_161039_lab1/pull/new/allcomands
+remote:
+To https://github.com/Dobrila97/SI_161039_lab1.git
+ * [new branch]      allcomands -> allcomands
+Branch 'allcomands' set up to track remote branch 'allcomands' from 'origin'.
+
+Dobrila@DESKTOP-GP0R48H MINGW64 ~/lab1 (allcomands)
+$ git checkout allcomands
+Already on 'allcomands'
+M       lab1.txt
+Your branch is up to date with 'origin/allcomands'.
+
+Dobrila@DESKTOP-GP0R48H MINGW64 ~/lab1 (allcomands)
+$ git rebase master
+error: cannot rebase: You have unstaged changes.
+error: Please commit or stash them.
+
+Dobrila@DESKTOP-GP0R48H MINGW64 ~/lab1 (allcomands)
+$
